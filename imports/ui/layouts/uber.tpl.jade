@@ -1,0 +1,8 @@
+header
+  +nav
+
+.main-content
+  if currentUser
+    +Template.dynamic template=main
+  else
+    +atForm

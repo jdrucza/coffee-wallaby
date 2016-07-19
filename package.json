@@ -1,0 +1,12 @@
+{
+  "name": "coffee-wallaby",
+  "private": true,
+  "scripts": {
+    "test": "meteor test --once --driver-package dispatch:mocha-phantomjs --port 3100",
+    "test:watch": "TEST_WATCH=1 meteor test --driver-package dispatch:mocha-phantomjs --port 3100",
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "faker": "^3.1.0"
+  }
+}

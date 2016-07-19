@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'run', 'test' ]
+2 info using npm@2.0.2
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 verbose run-script [ 'pretest', 'test', 'posttest' ]
+6 info pretest peopability@
+7 info test peopability@
+8 verbose unsafe-perm in lifecycle true
+9 info peopability@ Failed to exec test script
+10 verbose stack Error: peopability@ test: `meteor test --once --driver-package dispatch:mocha-phantomjs --port 3100`
+10 verbose stack Exit status 8
+10 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:212:16)
+10 verbose stack     at ChildProcess.emit (events.js:98:17)
+10 verbose stack     at maybeClose (child_process.js:756:16)
+10 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:823:5)
+11 verbose pkgid peopability@
+12 verbose cwd /Users/james/dev/projects/coffee-wallaby
+13 error Darwin 15.5.0
+14 error argv "node" "/usr/local/bin/npm" "run" "test"
+15 error node v0.10.32
+16 error npm  v2.0.2
+17 error code ELIFECYCLE
+18 error peopability@ test: `meteor test --once --driver-package dispatch:mocha-phantomjs --port 3100`
+18 error Exit status 8
+19 error Failed at the peopability@ test script.
+19 error This is most likely a problem with the peopability package,
+19 error not with npm itself.
+19 error Tell the author that this fails on your system:
+19 error     meteor test --once --driver-package dispatch:mocha-phantomjs --port 3100
+19 error You can get their info via:
+19 error     npm owner ls peopability
+19 error There is likely additional logging output above.
+20 verbose exit [ 1, true ]
